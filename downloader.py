@@ -1,0 +1,5 @@
+class Downloader:
+    def __init__(self, urls, timeout, max_attempts):
+        self.urls = urls
+        self.timeout = timeout
+        self.max_attempts = max_attempts
